@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    color: mintcream;
+    text-transform: uppercase;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-size: 1em;
+    letter-spacing: 0.3em;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    list-style: flex;
+    flex-direction: column;
+}
+
+li {
+    height: 3em;
+    width: 3em;
+    color: rgba(0,0,0,0.7);
+    border-radius: 0.4em;
+    line-height: 3em;
+    letter-spacing: 1px;
+    margin: 0.4em;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1em;
+}
+
+#tab {
+    width: 5em;
+}
+
+#cap {
+    width: 6em;
+}
+
+#left-shift {
+    width: 8em;
+}
+
+#enter { 
+    width: 6em;
+}
+
+#right-shift {
+    width: 8em;
+}
+
+#back { 
+    width: 5em;
+}
+
+.pinky {
+    background-color: #be93d4;
+    border: 2px solid #be93d4;
+}
+
+.pinky.selected {
+    color: #be93d4;
+}
+
+.ring {
+    background-color: #e39ff6;
+    border: 2px solid #e39ff6;
+}
+
+.ring.selected {
+    color: #e39ff6;
+}
+
+.middle {
+    background-color: #9867c5;
+    border: 2px solid #9867c5;
+}
+
+.middle.selected {
+    color: #9867c5;
+}
+
+.pointer1st {
+    background-color: #af69ef;
+    border: 2px solid #af69ef;
+}
+
+.pointer1st.selected {
+    color: #af69ef;
+}
