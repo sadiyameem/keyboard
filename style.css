@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 .title {
@@ -29,8 +29,8 @@ body {
 }
 
 li {
-  height: 3em;
-  width: 3em;
+  height: 2em;
+  width: 2em;
   color: rgba(0,0,0,0.7);
   border-radius: 0.4em;
   line-height: 3em;
@@ -38,7 +38,7 @@ li {
   margin: 0.4em;
   transition: 0.3s;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 #tab {
