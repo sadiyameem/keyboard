@@ -9,7 +9,7 @@
 
 # How it works
 1. A random key is highlighted (A-Z)
-2. The user presses on the highlighted key
+2. The user presses on the highlighted key on their keyboard
 3. If correct:
     - A random key is selected
  
