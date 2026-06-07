@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 50vh;
 }
 
 .title {
@@ -15,7 +15,7 @@ body {
   margin-top: 1em;
   margin-bottom: 1em;
   font-size: 2em;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
 }
 
 .keyboard {
@@ -38,7 +38,7 @@ li {
   margin: 0.4em;
   transition: 0.3s;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 #tab {
