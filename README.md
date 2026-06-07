@@ -23,6 +23,7 @@
 
 # Links
 - https://www.color-meanings.com/shades-of-purple-color-names-html-hex-rgb-codes/
+- https://htmlcolorcodes.com/
 
 # Why I made this
 - I built this to make something interactive and real.
